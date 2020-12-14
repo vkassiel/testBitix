@@ -44,7 +44,7 @@ Para o cálculo do plano e usuários, você deverá se basear na tabela de preç
     {
         "nome": "Vitor Kassiel",
         "idade": 20
-    },
+    }
 }
 ```
 
