@@ -13,6 +13,7 @@ Pra rodar essa API, você precisa:
 4.  `$ ./install.sh`
 5. `$ ./migrate.sh `
 6. `$ ./seed.sh`
+7. `$ php artisan serve`
 
 ## Endpoints
 ### Planos
@@ -37,14 +38,15 @@ http://localhost:8000/precos
 Para o cálculo do plano e usuários, você deverá se basear na tabela de preços acima, e enviar uma requisição do tipo `POST` passando os parâmetros abaixo:
 
 ```
-{  
-"codigo_plano": 1,
-"qtd_beneficiarios": 1,
-"beneficiarios": [
-    {
-        "nome": "Vitor Kassiel",
-        "idade": 20
-    }
+{
+	"codigo_plano": 1,
+	"qtd_beneficiarios": 1,
+	"beneficiarios": [
+		{
+			"nome": "Vitor Kassiel",
+			"idade": 20
+		}
+	]
 }
 ```
 
