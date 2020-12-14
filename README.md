@@ -50,6 +50,6 @@ Para o cálculo do plano e usuários, você deverá se basear na tabela de preç
 }
 ```
 
-## Endpoints
+## Lógica
 
 A lógica do cálculo encontra-se em `app\Http\Controllers\BeneficiarioController.php` e a a listagem de planos e preços encontra-se em `app\Http\Controllers\PlanoController.php`.
