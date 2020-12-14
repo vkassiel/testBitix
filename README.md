@@ -29,7 +29,7 @@ http://localhost:8000/precos
 
 ---
 
-### Calculo
+### Cálculo de preços
 `POST`
 
 <http://localhost:8000/calculo>
